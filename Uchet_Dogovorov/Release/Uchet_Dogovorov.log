@@ -1,168 +1,83 @@
-﻿Построение начато 30.05.2024 23:20:04.
-     1>Проект "k:\YandexDisk\до 2024.05.28 заказ № 52842 по предмету 'Программирование на C++' Курсовой\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.vcxproj" в узле 2 (целевые объекты build).
-     1>InitializeBuildStatus:
-         Создание "Release\Uchet_Dogovorov.unsuccessfulbuild", так как было задано "AlwaysCreate".
-       ClCompile:
-         Для всех выходных данных обновления не требуется.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Uchet_Dogovorov.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Uchet_Dogovorov.cpp
-         Uchet_Dogovorov.cpp
-     1>Uchet_Dogovorov.cpp(57): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(61): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(62): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(74): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(86): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(87): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(88): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(94): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(109): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(117): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(140): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(141): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(163): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(133): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(180): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(182): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
-     1>Uchet_Dogovorov.cpp(184): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
-     1>Uchet_Dogovorov.cpp(186): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
-     1>Uchet_Dogovorov.cpp(188): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
-     1>Uchet_Dogovorov.cpp(197): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(199): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
-     1>Uchet_Dogovorov.cpp(201): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(277): см. объявление "gets"
-     1>Uchet_Dogovorov.cpp(210): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(211): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(212): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(214): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(215): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(217): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(224): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(245): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(255): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(273): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(248): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(314): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(324): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(350): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(317): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(368): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(379): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(390): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(394): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(406): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(416): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(437): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(447): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(465): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(440): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(506): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(516): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(542): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(509): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(560): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(571): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(582): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(586): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(598): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(610): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(631): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(641): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(659): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(634): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(700): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(710): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(736): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(703): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(754): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(765): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(776): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(780): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(792): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(812): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(832): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(848): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(873): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(885): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234): см. объявление "fopen"
-     1>Uchet_Dogovorov.cpp(890): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(902): warning C4101: a: неиспользованная локальная переменная
-     1>Uchet_Dogovorov.cpp(942): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(993): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-     1>Uchet_Dogovorov.cpp(1021): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\YandexDisk\до 2024.05.28 заказ № 52842 по предмету 'Программирование на C++' Курсовой\Uchet_Dogovorov\Release\Uchet_Dogovorov.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Uchet_Dogovorov.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\YandexDisk\до 2024.05.28 заказ № 52842 по предмету 'Программирование на C++' Курсовой\Uchet_Dogovorov\Release\Uchet_Dogovorov.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"K:\YandexDisk\до 2024.05.28 заказ № 52842 по предмету 'Программирование на C++' Курсовой\Uchet_Dogovorov\Release\Uchet_Dogovorov.lib" /MACHINE:X86 Release\stdafx.obj
-         Release\Uchet_Dogovorov.obj
-         Создание кода
-         Создание кода завершено
-         Uchet_Dogovorov.vcxproj -> K:\YandexDisk\до 2024.05.28 заказ № 52842 по предмету 'Программирование на C++' Курсовой\Uchet_Dogovorov\Release\Uchet_Dogovorov.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"K:\YandexDisk\до 2024.05.28 заказ № 52842 по предмету 'Программирование на C++' Курсовой\Uchet_Dogovorov\Release\Uchet_Dogovorov.exe;#1" /manifest Release\Uchet_Dogovorov.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Файл "Release\Uchet_Dogovorov.unsuccessfulbuild" удаляется.
-         Обращение к "Release\Uchet_Dogovorov.lastbuildstate".
-     1>Построение проекта "k:\YandexDisk\до 2024.05.28 заказ № 52842 по предмету 'Программирование на C++' Курсовой\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.vcxproj" завершено (целевые объекты build).
-
-Построение успешно завершено.
-
-Затраченное время: 00:00:01.68
+﻿  Uchet_Dogovorov.cpp
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(57,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(61,28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(62,30): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(74,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(86,33): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(87,65): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(88,35): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(94,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(109,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(117,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(130,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(140,27): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(141,29): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(163,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(133,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(180,39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(197,37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(210,37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(211,38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(212,37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(214,29): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(215,41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(217,41): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(224,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(245,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(255,17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(273,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(248,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(314,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(324,38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(350,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(317,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(368,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(379,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(390,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(394,39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(406,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(416,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(437,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(447,17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(465,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(440,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(506,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(516,36): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(542,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(509,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(560,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(571,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(582,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(586,37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(598,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(610,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(631,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(641,17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(659,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(634,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(700,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(710,36): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(736,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(703,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(754,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(765,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(776,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(780,37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(792,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(812,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(832,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(848,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(873,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(890,52): warning C4477: "scanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "char (*)[15]"
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(885,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(890,46): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(902,12): warning C4101: a: неиспользованная локальная переменная
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(942,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(993,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Uchet_Dogovorov\Uchet_Dogovorov.cpp(1021,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Создание кода
+  23 of 323 functions ( 7.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Uchet_Dogovorov.vcxproj -> C:\Users\Lina\Desktop\Задача вани\Uchet_Dogovorov\Release\Uchet_Dogovorov.exe

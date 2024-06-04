@@ -3,10 +3,10 @@
 
 #include "stdafx.h"
 
-char *users_bd   = "c:\\Users.dat";				//Файл БД пользователей
-char *klienty_bd = "c:\\Klienty.dat";			//Файл БД с данными клиентов
-char *Uslugi_bd	 = "c:\\Uslugi.dat";			//Файл БД с данными услуг
-char *Sdelki_bd	 = "c:\\Sdelki.dat";			//Файл БД с данными сделок
+char *users_bd   = "E:\\Users.dat";				//Файл БД пользователей
+char *klienty_bd = "E:\\Klienty.dat";			//Файл БД с данными клиентов
+char *Uslugi_bd	 = "E:\\Uslugi.dat";			//Файл БД с данными услуг
+char *Sdelki_bd	 = "E:\\Sdelki.dat";			//Файл БД с данными сделок
 
 void menu(void);
 char *Rus1(const char * );		//Перекодировка текста
@@ -179,13 +179,13 @@ Klienty Klienty_zapoln(void){			//Заполнение данных клиента
 
 	printf("Код клиента: ");			scanf("%d", &d_kl.KodKlienta);
 	fflush(stdin);
-	printf("Название: ");				gets(d_kl.Nazvanie);
+	printf("Название: ");				gets_s(d_kl.Nazvanie);
 	fflush(stdin);
-	printf("Вид деятельности: ");		gets(d_kl.VidDejat);
+	printf("Вид деятельности: ");		gets_s(d_kl.VidDejat);
 	fflush(stdin);
-	printf("Адрес: ");					gets(d_kl.Adres);
+	printf("Адрес: ");					gets_s(d_kl.Adres);
 	fflush(stdin);
-	printf("Телефон: ");				gets(d_kl.Telefon);
+	printf("Телефон: ");				gets_s(d_kl.Telefon);
 
 	return d_kl;
 };
@@ -196,9 +196,9 @@ Uslugi Uslugi_zapoln(void){			//Заполнение данных услуг
 
 	printf("Код услуги: ");			scanf("%d", &d_usl.KodUslugi);
 	fflush(stdin);
-	printf("Название: ");			gets(d_usl.Nazvanie);
+	printf("Название: ");			gets_s(d_usl.Nazvanie);
 	fflush(stdin);
-	printf("Описание: ");			gets(d_usl.Opisanie);
+	printf("Описание: ");			gets_s(d_usl.Opisanie);
 
 	return d_usl;
 };
